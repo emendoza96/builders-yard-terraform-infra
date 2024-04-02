@@ -1,0 +1,21 @@
+# Archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Archivos temporales creados durante el proceso de planificación y aplicación
+*.tfplan
+
+# Directorio .terraform generado por Terraform
+**/.terraform/*
+
+# Archivos de configuración de IDE
+*.iml
+.vscode
+.idea
+
+# Archivos de registro y temporales
+*.log
+*.log.*
